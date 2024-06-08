@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
-import { InputField, SubmitButton } from './components/components';
+import {
+	InputField,
+	SubmitButton,
+	ValidationHints,
+} from './components/components';
 
 function App() {
 	return (
@@ -10,6 +14,7 @@ function App() {
 				inputType="password"
 				placeholder="Create your password"
 			/>
+			<ValidationHints />
 			<SubmitButton name="Sign up" />
 		</div>
 	);
