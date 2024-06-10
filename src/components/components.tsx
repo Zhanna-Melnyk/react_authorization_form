@@ -1,5 +1,5 @@
 import { InputField } from './InputField/InputField';
 import { SubmitButton } from './SubmitButton/SubmitButton';
-import { ValidationHints } from './ValidationHints/ValidationHints';
+import { PasswordValidationHints } from './PasswordValidationHints/PasswordValidationHints';
 
-export { InputField, SubmitButton, ValidationHints };
+export { InputField, SubmitButton, PasswordValidationHints };
