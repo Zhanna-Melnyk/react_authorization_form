@@ -1,14 +1,17 @@
 import React from 'react';
 
+import './styles.css';
+
 type SubmitButtonProps = {
 	name: string;
+	onClick: VoidFunction;
 };
 
-const SubmitButton = ({ name }: SubmitButtonProps) => {
+const SubmitButton = ({ name, onClick }: SubmitButtonProps) => {
 	return (
-		<div>
-			<button type="submit">{name}</button>
-		</div>
+		<button className="submitBtn" type="submit" onClick={onClick}>
+			{name}
+		</button>
 	);
 };
 
