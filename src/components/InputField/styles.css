@@ -1,0 +1,49 @@
+.fieldBlock {
+    position: relative;
+    display: grid;
+}
+
+.input {
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4a4e71;
+}
+
+.input:focus {
+    outline: 1px solid #6f91bc;
+}
+
+.valid {
+    outline: 1px solid #27b274;
+    color: #27b274 !important;
+}
+
+.invalid {
+    outline: 1px solid #ff8080;
+    color: #ff8080 !important;
+}
+
+.visibilityToggle {
+    position: absolute;
+    right: 10px;
+    align-self: center;
+}
+
+.validationError {
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ed5f59;
+    margin-top: 5px;
+    padding-left: 20px;
+}

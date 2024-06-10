@@ -1,0 +1,13 @@
+.App {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 90% 1fr;
+    grid-template-rows: 1fr max-content 2fr;
+    background: linear-gradient(#f4f9ff, #e0edfb);
+}
+
+@media (min-width: 600px) {
+    .App {
+        grid-template-columns: 1fr 500px 1fr;
+    }
+}

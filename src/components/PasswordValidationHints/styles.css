@@ -1,0 +1,15 @@
+.hintsBlock {
+    display: grid;
+    box-sizing: border-box;
+    padding-left: 20px;
+    gap: 4px;
+}
+
+.hint {
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #4A4E71;
+}
