@@ -1,0 +1,23 @@
+.formContainer {
+    width: 100%;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: grid;
+    height: max-content;
+    gap: 40px;
+}
+
+.title {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #4a4e71;
+}
+
+.formBlock {
+    display: grid;
+    gap: 20px;
+}
+
