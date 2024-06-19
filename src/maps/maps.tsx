@@ -1,3 +1,3 @@
-import { passwordValidationHint } from './passwordValidationHint';
+import { passwordValidationHint } from './PasswordValidationHint';
 
 export { passwordValidationHint };
